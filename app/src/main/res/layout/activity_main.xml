@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.c1103304.myapplication.MainActivity">
+
+    <com.example.c1103304.myapplication.AutoFitTextureView
+        android:id="@+id/texture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/Fin00"
+        android:text="@string/Fin00" />
+        <Button
+            android:id="@+id/fin04"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:alpha="0"
+            android:tag="@string/Fin04"
+            android:text="@string/Fin04" />
+        <Button
+            android:id="@+id/fin01"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:alpha="0"
+            android:tag="@string/Fin01"
+            android:text="@string/Fin01" />
+        <Button
+            android:id="@+id/fin02"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="false"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:alpha="0"
+            android:tag="@string/Fin02"
+            android:text="@string/Fin02" />
+    <Button
+        android:id="@+id/fin03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/Fin03"  android:text="@string/Fin03" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac00"  android:text="@string/ac00" />
+
+    <Button
+        android:id="@+id/ac01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac01"  android:text="@string/ac01" />
+    <Button
+        android:id="@+id/ac011"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac011"  android:text="@string/ac011" />
+    <Button
+        android:id="@+id/ac012"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac012"  android:text="@string/ac012" />
+    <Button
+        android:id="@+id/ac02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac02"  android:text="@string/ac02" />
+    <Button
+        android:id="@+id/ac021"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac021"  android:text="@string/ac021" />
+    <Button
+        android:id="@+id/ac022"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac022"  android:text="@string/ac022" />
+    <Button
+        android:id="@+id/ac03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac03"  android:text="@string/ac03" />
+    <Button
+        android:id="@+id/ac031"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac031"  android:text="@string/ac031" />
+    <Button
+        android:id="@+id/ac032"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac032"  android:text="@string/ac032" />
+    <Button
+        android:id="@+id/ac04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac04"  android:text="@string/ac04" />
+    <Button
+        android:id="@+id/ac041"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac041"  android:text="@string/ac041" />
+    <Button
+        android:id="@+id/ac042"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac042"  android:text="@string/ac042" />
+    <Button
+        android:id="@+id/ac05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac05"  android:text="@string/ac05" />
+    <Button
+        android:id="@+id/ac051"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac051"  android:text="@string/ac051" />
+    <Button
+        android:id="@+id/ac052"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac052"  android:text="@string/ac052" />
+    <Button
+        android:id="@+id/ac06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac06"  android:text="@string/ac06" />
+    <Button
+        android:id="@+id/ac061"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac061"  android:text="@string/ac061" />
+    <Button
+        android:id="@+id/ac062"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac062"  android:text="@string/ac062" />
+    <Button
+        android:id="@+id/ac07"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac07"  android:text="@string/ac07" />
+    <Button
+        android:id="@+id/ac071"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac071"  android:text="@string/ac071" />
+    <Button
+        android:id="@+id/ac072"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/ac072"  android:text="@string/ac072" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/hu00"  android:text="@string/hu00" />
+    <Button
+        android:id="@+id/hu04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/hu04"  android:text="@string/hu04" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/si00"  android:text="@string/si00"/>
+    <Button
+        android:id="@+id/si02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/si02"  android:text="@string/si02"/>
+    <Button
+        android:id="@+id/si021"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/si021"  android:text="@string/si021"/>
+    <Button
+        android:id="@+id/si022"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/si022"  android:text="@string/si022"/>
+    <Button
+        android:id="@+id/si03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/si03"  android:text="@string/si03"/>
+    <Button
+        android:id="@+id/si031"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/si031"  android:text="@string/si031"/>
+    <Button
+        android:id="@+id/si032"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/si032"  android:text="@string/si032"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/bs00"  android:text="@string/bs00" />
+    <Button
+        android:id="@+id/bs02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/bs02"  android:text="@string/bs02" />
+    <Button
+        android:id="@+id/bs021"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/bs021"  android:text="@string/bs021" />
+    <Button
+        android:id="@+id/bs022"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/bs022"  android:text="@string/bs022" />
+    <Button
+        android:id="@+id/bs03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/bs03"  android:text="@string/bs03" />
+    <Button
+        android:id="@+id/bs04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/bs04"  android:text="@string/bs04" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/bd00"  android:text="@string/bd00" />
+    <Button
+        android:id="@+id/bd02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/bd02"  android:text="@string/bd02" />
+    <Button
+        android:id="@+id/bd03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:tag="@string/bd03"  android:text="@string/bd03" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:text="@string/fix00" android:tag="@string/fix00"/>
+
+    <Button
+        android:id="@+id/fix06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:text="@string/fix06" android:tag="@string/fix06"/>
+
+    <Button
+        android:id="@+id/fix05"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:text="@string/fix05" android:tag="@string/fix05"/>
+
+    <Button
+        android:id="@+id/fix04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:text="@string/fix04" android:tag="@string/fix04"/>
+
+    <Button
+        android:id="@+id/fix03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:text="@string/fix03" android:tag="@string/fix03"/>
+
+    <Button
+        android:id="@+id/fix02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:text="@string/fix02" android:tag="@string/fix02"/>
+
+    <Button
+        android:id="@+id/fix01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:alpha="0"
+        android:text="@string/fix01" android:tag="@string/fix01"/>
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:alpha=".5"
+        android:background="#000000"
+        android:text="TextView"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/texture"
+        android:background="@drawable/bac"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <Button
+            android:id="@+id/picture"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="false"
+            android:layout_centerHorizontal="false"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="false"
+            android:layout_gravity="center"
+            android:background="@drawable/takepic"
+            android:enabled="true" />
+
+        <Button
+            android:id="@+id/info"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginLeft="40dp"
+            android:background="@drawable/sss" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="ac00">AC管溝</string>
+    <string name="ac01">施工前</string>
+    <string name="ac011">全景(含交維、告示牌)</string>
+    <string name="ac012">近拍(路證)</string>
+    <string name="ac02">開挖(120cm)</string>
+    <string name="ac021">開挖深測量全景</string>
+    <string name="ac022">近拍(箱尺、停檢白板)</string>
+    <string name="ac03">CLSM 回填</string>
+    <string name="ac031">澆置CLSM全景</string>
+    <string name="ac032">近拍(CLSM送料簽收單)</string>
+    <string name="ac04">厚度(AC20cm)</string>
+    <string name="ac041">厚度量測停檢全景</string>
+    <string name="ac042">近拍(停檢白板)</string>
+    <string name="ac05">AC 滾壓</string>
+    <string name="ac051">全景AC鋪築含鋪築機</string>
+    <string name="ac052">全景AC滾壓含滾壓機</string>
+    <string name="ac06">平整度</string>
+    <string name="ac061">完成面近拍(平整度檢測及停檢白板)</string>
+    <string name="ac062">完成面全景(含三分之一背景)</string>
+    <string name="ac07">完工申報</string>
+    <string name="ac071">門牌或地標近拍、復舊區全景(含三分之一背景)</string>
+    <string name="ac072">另一側全景(平整度檢測及停檢白板)</string>
+
+    <string name="si00">銑鋪5cm</string>
+    <string name="si02">AC銑刨</string>
+    <string name="si03">AC厚度量測及黏層噴塗</string>
+    <string name="si04">平整度</string>
+    <string name="si05">完工申報</string>
+    <string name="si021">全景</string>
+    <string name="si022">銑刨機具</string>
+    <string name="si031">厚度(AC 5cm)</string>
+    <string name="si032">黏層噴塗(完成全景)</string>
+
+
+    <string name="Fin00">完工接管</string>
+    <string name="Fin01">門牌或地標近拍</string>
+    <string name="Fin02">全景</string>
+    <string name="Fin03">平整度1</string>
+    <string name="Fin04">平整度2</string>
+    <string name="Fin1">平整度數據1(mm)</string>
+    <string name="Fin2">平整度數據2(mm)</string>
+
+
+    <string name="hu00">人行道管溝</string>
+    <string name="hu04">厚度(原人行道)</string>
+
+    <string name="bs00">人手孔調平</string>
+    <string name="bs02">路面切割</string>
+    <string name="bs021">遠拍</string>
+    <string name="bs022">近拍</string>
+    <string name="bs03">孔蓋定平及固定</string>
+    <string name="bs04">緣石施工</string>
+
+    <string name="bd00">人手孔調降</string>
+    <string name="bd02">開挖(20cm)</string>
+    <string name="bd03">設置覆蓋板及固定</string>
+
+    <string name="fix00">管障通報</string>
+    <string name="fix01">全景 1</string>
+    <string name="fix02">全景 2</string>
+    <string name="fix03">近拍管障物特寫</string>
+    <string name="fix04">管障物深度量測含停檢板</string>
+    <string name="fix05">現場略圖拍攝</string>
+    <string name="fix06">支距法現況拍攝</string>
+</resources>
